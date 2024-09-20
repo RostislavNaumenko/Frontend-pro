@@ -3,8 +3,6 @@ import MyInput from "../myInput/MyInput";
 import './myForm.css'
 
 function MyForm() {
-
-
   
   return (
     <form className='myForm'>

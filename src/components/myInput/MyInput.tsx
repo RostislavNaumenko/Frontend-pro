@@ -1,6 +1,11 @@
+interface MyInputProps {
+  label: string;
+  placeholder: string;
+  type: string;
+  name?: string;
+}
 
-
-function MyInput({ label, placeholder, type, name }) {
+function MyInput({ label, placeholder, type, name }: MyInputProps) {
   return (
     <>
       {/* сопроводительный текст из label */}
