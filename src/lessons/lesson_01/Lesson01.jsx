@@ -1,5 +1,4 @@
 // импорт css из отдельного файла
-import jsxImg from "../assets/jsx.jpg";
 import MyButton from "../../components/myButton/MyButton";
 import "./lesson01.css";
 
@@ -15,7 +14,7 @@ function Lesson01() {
     // такой синтаксис: верстка в логике JS называется JSX
     <div className="App">
       <h1>Hello, react! 🙋‍♂️</h1>
-      <img className="jsxImg" src={jsxImg} alt="" />
+      <img className="jsxImg" alt="" />
       <div>
         <MyButton text={"приходи ко мне на чай"} onClick={remember} />
       </div>
