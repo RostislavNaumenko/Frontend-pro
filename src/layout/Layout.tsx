@@ -41,6 +41,12 @@ const Layout = () => {
         >
           RobotForm
         </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? styles.linkActive : "")}
+          to={"shop"}
+        >
+          Shop
+        </NavLink>
       </header>
       <main className={styles.main}>
         {/* за место компонента outlet импортированного из библиотеки react-router-dom будут приходить компоненты из routing, чьи пути мы пропишем в index.tsx */}

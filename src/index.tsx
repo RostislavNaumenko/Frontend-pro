@@ -17,6 +17,7 @@ import Lesson06 from "./lessons/lesson_06/Lesson06";
 import Lesson07 from "./lessons/lesson_07/Lesson07";
 import Lesson10 from "./lessons/lesson_10/Lesson10";
 import NoPage from "./components/noPage/NoPage";
+import Shop from "./components/myShop/Shop";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -30,6 +31,7 @@ root.render(
         <Route element={<MyForm />} path="my-form" />
         <Route element={<Feedback />} path="feedback" />
         <Route element={<RobotForm />} path="robot-form" />
+        <Route element={<Shop />} path="shop" />
         <Route element={<Lesson01 />} path="lesson-1" />
         <Route element={<Lesson02 />} path="lesson-2" />
         <Route element={<Lesson03 />} path="lesson-3" />
